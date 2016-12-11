@@ -1,0 +1,31 @@
+Welcome, HIC dataset is a large corpus of actual human initialization clicks on TB50 visual tracking dataset [1].
+
+1. The clicks are collected from different human subjects, who are required to click target center on streaming video, and under 3 scenarios that simulate different system constraints. From mild to severe, they are Pause&Click, Follow&Click, and Spot&Click. Please see [2] for details.
+
+2. HIC_20000 contains 20000+ clicks for all 3 scenarios, based on all 49 sequences in TB50.
+
+3. HIC_2000 is part of HIC_20000, containing 2200 clicks for Follow&Click and Spot&Click, based on 11 erratic sequences [3]. For each scenario and each sequence, it contains 100 randomly selected clicks.
+
+4. Each row in the txt files represent a human click, (frame_number, x, y, click_duration). 
+ * 'frame_number', 'x', 'y' start from 1, 2, 3...
+ * 'click_duration' is only available in 'Pause&Click', representing how many frames a user use for a click after pausing videos.
+ 
+5. If you find this dataset useful in your research, please consider citing:
+
+@article{zhu2016automatic,
+  title={Automatic Refinement Strategies for Manual Initialization of Object Trackers.},
+  author={Zhu, H and Porikli, F},
+  journal={IEEE transactions on image processing: a publication of the IEEE Signal Processing Society},
+  year={2016}
+}
+
+
+[1]TB50 sequences: http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html
+
+[2]Zhu H, Porikli F. Automatic Refinement Strategies for Manual Initialization of Object Trackers[J]. IEEE transactions on image processing: a publication of the IEEE Signal Processing Society, 2016.
+You can access our paper in the publication list here: http://www.porikli.com/
+
+[3]Erratic sequences includes erratic camera and object motion patterns. They are 'BlurBody','BlurCar2','BlurFace,'BlurOwl','Couple','Deer','DragonBaby','Human9','Jumping','Surfer',and 'Woman'.
+
+
+2016.Dec.11
