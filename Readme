@@ -13,9 +13,9 @@ Welcome, HIC dataset is a large corpus of actual human initialization clicks on 
 5. If you find this dataset useful in your research, please consider citing:
 
 @article{zhu2016automatic,
-  title={Automatic Refinement Strategies for Manual Initialization of Object Trackers.},
-  author={Zhu, H and Porikli, F},
-  journal={IEEE transactions on image processing: a publication of the IEEE Signal Processing Society},
+  title={Automatic Refinement Strategies for Manual Initialization of Object Trackers},
+  author={Zhu, H. and Porikli, F.},
+  journal={IEEE Transactions on Image Processing},
   year={2016}
 }
 
